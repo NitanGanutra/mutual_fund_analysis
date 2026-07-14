@@ -1,3 +1,14 @@
+"""
+Bluestock Mutual Fund Analytics
+
+File: load_to_sqlite.py
+
+Purpose:
+Load cleaned mutual fund datasets into
+SQLite database.
+
+Author: Nitan Sharma
+"""
 import pandas as pd
 from sqlalchemy import create_engine
 

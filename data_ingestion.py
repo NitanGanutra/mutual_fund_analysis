@@ -1,3 +1,14 @@
+"""
+Bluestock Mutual Fund Analytics
+
+File: data_ingestion.py
+
+Purpose:
+Load raw mutual fund datasets, validate data,
+and store cleaned data into SQLite database.
+
+Author: Nitan Sharma
+"""
 import pandas as pd
 import os
 
@@ -24,4 +35,4 @@ for file in os.listdir(data_folder):
         print(df.dtypes)
 
         print("\nFirst 5 Rows:")
-        print(df.head())
+       

@@ -1,3 +1,14 @@
+"""
+Bluestock Mutual Fund Analytics
+
+File: live_nav_fetch.py
+
+Purpose:
+Fetch latest NAV data for mutual fund schemes
+and update the local database.
+
+Author: Nitan Sharma
+"""
 import requests
 import pandas as pd
 
@@ -18,4 +29,3 @@ output_file = "data/raw/hdfc_top100_nav.csv"
 df.to_csv(output_file, index=False)
 
 print("NAV data saved successfully!")
-print(df.head())

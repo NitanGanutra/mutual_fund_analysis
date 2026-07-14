@@ -1,3 +1,14 @@
+"""
+Bluestock Mutual Fund Analytics
+
+File: day2_cleaning.py
+
+Purpose:
+Clean raw mutual fund datasets by handling
+missing values, duplicates, and formatting.
+
+Author: Nitan Sharma
+"""
 import pandas as pd
 
 # Load transactions dataset
